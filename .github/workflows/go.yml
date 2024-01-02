@@ -27,7 +27,7 @@ jobs:
 
   build:
     needs: test
-    runs-on: ubuntu-latest
+    runs-on: MacOS-latest
     steps:
       - uses: actions/checkout@v3
       - name: Build
